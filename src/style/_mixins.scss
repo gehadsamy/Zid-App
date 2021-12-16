@@ -1,0 +1,58 @@
+@import './variables';
+
+
+@mixin background-image($filePath, $bgXpos:0, $bgYpos:0, $bgReapeat:no-repeat, $bgSize:cover, $bgAttachment:fixed) {
+  background-image: url($filePath);
+  background-position: $bgXpos $bgYpos;
+  background-repeat: $bgReapeat;
+  background-size: $bgSize;
+  background-attachment: $bgAttachment;
+}
+
+
+
+%appBtn{
+	position: absolute;
+	width: 295px;
+	height: 60px;
+	left: 560.8px;
+	top: 303.28px;	
+	background: $main-color;
+	border-radius: 10px;
+}
+
+%downArrow {
+	position: absolute;
+width: 32.84px;
+height: 19.71px;
+left: 645.73px;
+top: 316.86px;
+
+background: url(.png);
+transform: rotate(90deg);
+}
+
+
+
+%fontMontserrat{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+%section-padding{
+	padding: 100px 0 50px;
+}
+
+
+%width-style{
+	width: fit-content;
+    height: fit-content;
+}
+%displayColFlex{
+	display: flex;
+    flex-direction: column;
+}
+%paddingView{
+	padding-left: 260px;
+}

@@ -1,0 +1,46 @@
+@import '../../style/variables';
+@import '../../style/mixins';
+
+.header__container {
+    h1 {
+        color: $main-color;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 64px;
+
+    }
+
+    p {
+        line-height: 34px;
+    }
+
+    .banner__container {
+
+        .banner {
+            // position: absolute;
+            width: 846.89px;
+            height: 549.29px;
+            // left: 269.52px;
+            // top: 447.87px;
+            border-radius: 40px;
+        }
+
+        .Pattern {
+            position: absolute;
+            width: 176px;
+            height: 191px;
+            left: 199px;
+            top: 407px;
+
+        }
+
+        .Ellipse {
+            position: absolute;
+            width: 367.32px;
+            height: 367.32px;
+            left: 830.04px;
+            top: 722.52px;
+        }
+    }
+
+}

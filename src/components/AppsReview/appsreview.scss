@@ -1,0 +1,21 @@
+@import '../../style/variables';
+@import '../../style/mixins';
+.AppsReview{
+    background: $apps-bg;
+    .AppsReview__container {
+       
+
+        h2 {
+            color: $main-color;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: -1px;
+        }
+        .appsgif {
+            filter: drop-shadow(0px 4px 19px rgba(0, 0, 0, 0.25));
+            border-radius: 40px;
+        }
+    }
+
+}
