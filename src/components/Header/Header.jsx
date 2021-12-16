@@ -19,14 +19,14 @@ export default function Header() {
         </p>
         <MainButton className="" />
         <div className="banner__container">
+        <img className="img-fluid banner" src={banner}></img>
+
+            <img className="img-fluid Pattern" src={Pattern}></img>
       
-            {/* <img className="img-fluid Pattern" src={Pattern}></img> */}
       
-          {/* <figure>
             <img className="img-fluid Ellipse" src={Ellipse}></img>
-          </figure> */}
+     
    
-            <img className="img-fluid banner" src={banner}></img>
   
         </div>
       </Container>

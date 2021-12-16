@@ -2,8 +2,8 @@
 @import '../../style/mixins';
 .AppsReview{
     background: $apps-bg;
+    // position: relative;
     .AppsReview__container {
-       
 
         h2 {
             color: $main-color;

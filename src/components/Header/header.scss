@@ -17,29 +17,31 @@
     .banner__container {
 
         .banner {
-            // position: absolute;
+            position: relative;
             width: 846.89px;
             height: 549.29px;
-            // left: 269.52px;
-            // top: 447.87px;
+            /* left: -55.48px; */
+            top: 114.87px;
             border-radius: 40px;
+            z-index: 1;
+
         }
 
         .Pattern {
             position: absolute;
             width: 176px;
             height: 191px;
-            left: 199px;
-            top: 407px;
+            left: 145px;
+            top: 300px;
 
         }
 
         .Ellipse {
-            position: absolute;
+            position: relative;
             width: 367.32px;
             height: 367.32px;
-            left: 830.04px;
-            top: 722.52px;
+            top: -33.48px;
+            left: 335px;
         }
     }
 

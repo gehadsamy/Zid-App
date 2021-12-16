@@ -17,19 +17,17 @@
 	height: 60px;
 	left: 560.8px;
 	top: 303.28px;	
-	background: $main-color;
+	background: $primary-text-color;
 	border-radius: 10px;
 }
 
-%downArrow {
-	position: absolute;
-width: 32.84px;
-height: 19.71px;
-left: 645.73px;
-top: 316.86px;
-
-background: url(.png);
-transform: rotate(90deg);
+%scroll {
+    position: fixed;
+    background-color: $primary-text-color;
+    color: $white;
+    padding: 0.75rem 1rem;
+    border-radius: 50%;
+    border: none;
 }
 
 

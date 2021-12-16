@@ -2,14 +2,22 @@
 @import '../../style/mixins';
 
 .btn-scrollup{
-    position: fixed;
+    @extend %scroll;
+
     bottom: 3rem;
-    right: 3rem;
-    background-color: $main-color;
-    color: $white;
-    padding: 0.75rem 1rem;
-    border-radius: 50%;
-    border: none;
+    right: 5rem;
+    &:hover{
+        color: $main-text-color;
+    }
+}
+
+.chat-scrollup{
+    @extend %scroll;
+    bottom: 3rem;
+    left:5rem;
+    &:hover{
+        color: $main-text-color;
+    }
     &:hover{
         color: $main-text-color;
     }
