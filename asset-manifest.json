@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Zid-App/static/css/main.1682c430.chunk.css",
+    "main.js": "/Zid-App/static/js/main.014710cb.chunk.js",
+    "main.js.map": "/Zid-App/static/js/main.014710cb.chunk.js.map",
+    "runtime-main.js": "/Zid-App/static/js/runtime-main.15b92dd9.js",
+    "runtime-main.js.map": "/Zid-App/static/js/runtime-main.15b92dd9.js.map",
+    "static/js/2.968c70e6.chunk.js": "/Zid-App/static/js/2.968c70e6.chunk.js",
+    "static/js/2.968c70e6.chunk.js.map": "/Zid-App/static/js/2.968c70e6.chunk.js.map",
+    "static/js/3.94f1ca15.chunk.js": "/Zid-App/static/js/3.94f1ca15.chunk.js",
+    "static/js/3.94f1ca15.chunk.js.map": "/Zid-App/static/js/3.94f1ca15.chunk.js.map",
+    "index.html": "/Zid-App/index.html",
+    "static/css/main.1682c430.chunk.css.map": "/Zid-App/static/css/main.1682c430.chunk.css.map",
+    "static/js/2.968c70e6.chunk.js.LICENSE.txt": "/Zid-App/static/js/2.968c70e6.chunk.js.LICENSE.txt",
+    "static/media/apps-gif.c104f694.gif": "/Zid-App/static/media/apps-gif.c104f694.gif",
+    "static/media/banner.efe6ee62.gif": "/Zid-App/static/media/banner.efe6ee62.gif",
+    "static/media/footer.3826c642.png": "/Zid-App/static/media/footer.3826c642.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15b92dd9.js",
+    "static/js/2.968c70e6.chunk.js",
+    "static/css/main.1682c430.chunk.css",
+    "static/js/main.014710cb.chunk.js"
+  ]
+}
