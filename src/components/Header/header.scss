@@ -15,33 +15,43 @@
     }
 
     .banner__container {
-
-        .banner {
+        position: relative;
+        padding-top: 50px;
+        .img-container{
             position: relative;
-            width: 846.89px;
-            height: 549.29px;
-            /* left: -55.48px; */
-            top: 114.87px;
-            border-radius: 40px;
-            z-index: 1;
-
-        }
-
-        .Pattern {
-            position: absolute;
-            width: 176px;
-            height: 191px;
-            left: 145px;
-            top: 300px;
-
-        }
-
-        .Ellipse {
-            position: relative;
-            width: 367.32px;
-            height: 367.32px;
-            top: -33.48px;
-            left: 335px;
+            .banner {
+                // position: relative;
+                // width: 60%;
+                // height: 549.29px;
+                /* left: -55.48px; */
+                top: 114.87px;
+                border-radius: 40px;
+                z-index: 1;
+            }
+    
+            .Pattern {
+                position: absolute;
+                // width: 176px;
+                // height: 191px;
+                // left: 145px;
+                // top: 0px;
+                width: 20%;
+                top: -5%;
+                left: -5%;
+                z-index: -1;
+            }
+    
+            .Ellipse {
+                position: absolute;
+                // width: 367.32px;
+                // height: 367.32px;
+                // top: -33.48px;
+                // left: 335px;
+                width: 30%;
+                top: 75%;
+                left: 75%;
+                z-index: -1;
+            }
         }
     }
 

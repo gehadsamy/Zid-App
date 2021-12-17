@@ -18,16 +18,13 @@ export default function Header() {
           أرباحك عبر إدارة عمليات متجرك بشكل فعال واحترافي
         </p>
         <MainButton className="" />
-        <div className="banner__container">
-        <img className="img-fluid banner" src={banner}></img>
-
+        <div className="banner__container row justify-content-center">
+          <div className="col-7 img-container">
+            <img className="img-fluid banner" src={banner}></img>
             <img className="img-fluid Pattern" src={Pattern}></img>
-      
-      
             <img className="img-fluid Ellipse" src={Ellipse}></img>
-     
-   
-  
+          </div>
+          
         </div>
       </Container>
     </section>
