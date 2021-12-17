@@ -12,7 +12,7 @@ export default function AppsReview() {
     <section className="AppsReview mt-5">
       <Container className="AppsReview__container">
         <Row>
-          <Col>
+          <Col lg="5" md="6" xs="12">
             <h2>كل ما تحتاجه لنمو متجرك فى مكان واحد</h2>
 
             <p>
@@ -32,12 +32,12 @@ export default function AppsReview() {
                 <img className="img-fluid group3" src={group3}></img>
                 أسعار تنافسية مع تجربة مجانية وباقات اشتراك متنوعة
               </li>
-              <MainButton className="" />
+              <MainButton  className="" />
             </ul>
             
    
           </Col>
-          <Col>
+          <Col lg="7" md="6" xs="12">
             <figure>
               <img className="img-fluid appsgif" src={appsgif}></img>
             </figure>

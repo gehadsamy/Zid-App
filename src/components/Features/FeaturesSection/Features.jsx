@@ -15,13 +15,13 @@ export default function Features() {
 
         </p>
         
-       <Container className="d-flex">
+       <div className="d-flex">
         <FeaturesCard/>
         <FeaturesCard/>
         <FeaturesCard/>
         <FeaturesCard/>
 
-      </Container>
+      </div>
 <Row className="justify-content-center">
 <MainButton className="Features__button" />
 
