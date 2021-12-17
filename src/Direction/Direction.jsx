@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Homepage from '../components/Homepage/Homepage';
 
 const theme = createTheme({
-  direction: 'rtl', // Both here and <body dir="rtl">
+  direction: 'rtl',
 });
 
 export default function Direction() {

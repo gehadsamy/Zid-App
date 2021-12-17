@@ -8,8 +8,11 @@ import Features from "../Features/FeaturesSection/Features";
 export default function Homepage() {
   return (
     <div className="homepage">
-      <a href="#header" className="btn-scrollup active">
-       <img src="https://grow.zid.sa/hs-fs/hubfs/to%20top.png?width=50&name=to%20top.png" alt="zid-logo"></img>
+      <a href="#home" className="btn-scrollup active">
+        <img
+          src="https://grow.zid.sa/hs-fs/hubfs/to%20top.png?width=50&name=to%20top.png"
+          alt="zid-logo"
+        ></img>
       </a>
 
       <Header />

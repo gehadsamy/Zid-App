@@ -1,11 +1,10 @@
-@import '../../style/variables';
-@import '../../style/mixins';
-.AppsReview{
+@import "../../style/variables";
+@import "../../style/mixins";
+.AppsReview {
     background: $apps-bg;
-    // position: relative;
     .AppsReview__container {
         padding: 4rem 2rem 2.6rem;
-        figure{
+        figure {
             position: relative;
         }
         h2 {
@@ -19,28 +18,25 @@
             filter: drop-shadow(0px 4px 19px rgba(0, 0, 0, 0.25));
             border-radius: 40px;
         }
-
         .Pattern {
             position: absolute;
-            // width: 176px;
-            // height: 191px;
-            // left: 145px;
-            // top: 0px;
             width: 25%;
             top: -10%;
             left: -8%;
         }
-
         .Ellipse {
             position: absolute;
-            // width: 367.32px;
-            // height: 367.32px;
-            // top: -33.48px;
-            // left: 335px;
-            width: 35%;
-            top: 60%;
-            left: 70%;
+            width: 47%;
+            top: 37%;
+            left: 61%;
         }
     }
+    ul{
+        padding: 0;
+        .group{
+            padding-left: 4px;
 
+        }
+
+    }
 }

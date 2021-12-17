@@ -1,37 +1,32 @@
-@import '../../style/variables';
-@import '../../style/mixins';
+@import "../../style/variables";
+@import "../../style/mixins";
 
-.btn-scrollup{
-    // @extend %scroll;
+.btn-scrollup {
     position: fixed;
     cursor: pointer;
     z-index: 99999999;
     bottom: 3rem;
-    left:5rem;
+    left: 5rem;
 
-    &:hover{
+    &:hover {
         color: $main-text-color;
     }
 }
 
-.chat-scrollup{
+.chat-scrollup {
     @extend %scroll;
     bottom: 3rem;
     right: 5rem;
 
-    &:hover{
+    &:hover {
         color: $main-text-color;
     }
-    &:hover{
+    &:hover {
         color: $main-text-color;
     }
 
-    svg{
-        height:35px !important;
-        width:35px !important;
-
+    svg {
+        height: 35px !important;
+        width: 35px !important;
     }
 }
-// body{
-//     direction :rtl;
-// }

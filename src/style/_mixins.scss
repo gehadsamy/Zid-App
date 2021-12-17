@@ -1,24 +1,28 @@
-@import './variables';
+@import "./variables";
 
-
-@mixin background-image($filePath, $bgXpos:0, $bgYpos:0, $bgReapeat:no-repeat, $bgSize:cover, $bgAttachment:fixed) {
-  background-image: url($filePath);
-  background-position: $bgXpos $bgYpos;
-  background-repeat: $bgReapeat;
-  background-size: $bgSize;
-  background-attachment: $bgAttachment;
+@mixin background-image(
+    $filePath,
+    $bgXpos: 0,
+    $bgYpos: 0,
+    $bgReapeat: no-repeat,
+    $bgSize: cover,
+    $bgAttachment: fixed
+) {
+    background-image: url($filePath);
+    background-position: $bgXpos $bgYpos;
+    background-repeat: $bgReapeat;
+    background-size: $bgSize;
+    background-attachment: $bgAttachment;
 }
 
-
-
-%appBtn{
-	position: absolute;
-	width: 295px;
-	height: 60px;
-	left: 560.8px;
-	top: 303.28px;	
-	background: $primary-text-color;
-	border-radius: 10px;
+%appBtn {
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 560.8px;
+    top: 303.28px;
+    background: $primary-text-color;
+    border-radius: 10px;
 }
 
 %scroll {
@@ -30,27 +34,22 @@
     border: none;
 }
 
-
-
-%fontMontserrat{
-	font-family: 'Montserrat Alternates', sans-serif;
+%fontMontserrat {
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
-
-
-%section-padding{
-	padding: 100px 0 50px;
+%section-padding {
+    padding: 100px 0 50px;
 }
 
-
-%width-style{
-	width: fit-content;
+%width-style {
+    width: fit-content;
     height: fit-content;
 }
-%displayColFlex{
-	display: flex;
+%displayColFlex {
+    display: flex;
     flex-direction: column;
 }
-%paddingView{
-	padding-left: 260px;
+%paddingView {
+    padding-left: 260px;
 }
