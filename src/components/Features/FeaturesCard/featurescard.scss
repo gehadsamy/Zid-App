@@ -1,10 +1,6 @@
 @import "../../../style/mixins";
 @import "../../../style/variables";
 .FeaturesCard {
-    width: 48%;
-.app-img{
-    width: 35%;
-}
     .feature__card {
         background-color: $bg-card;
         border: none;
@@ -25,5 +21,9 @@
     .Card__content {
         font-size: 10px;
 
+    }
+
+    .card-body{
+        padding: 1rem 0.5rem;
     }
 }

@@ -1,5 +1,4 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './NavBar.scss';
 import logo from "../../images/zid-logo.png";
 
@@ -11,7 +10,7 @@ function NavBar (){
         <Navbar className='navbar mb-5' >
           <Container className='navbar__container'>
           <Navbar.Brand href="#home">
-              <img className="w-100" src={logo}></img>
+              <img className="w-100" src={logo} alt='logo'></img>
           </Navbar.Brand>
           <Nav className="">
             <Nav.Link href="#home">الرئيسية</Nav.Link>

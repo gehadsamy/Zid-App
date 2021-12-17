@@ -1,5 +1,3 @@
-import NavBar from "../../shared/NavBar/NavBar";
-import { FaArrowUp } from "react-icons/fa";
 import "./Homepage.scss";
 import Header from "../Header/Header";
 import AppsReview from "../AppsReview/AppsReview";
@@ -10,8 +8,8 @@ import Features from "../Features/FeaturesSection/Features";
 export default function Homepage() {
   return (
     <div className="homepage">
-      <a href="#header" className="btn-scrollup">
-       <img src="https://grow.zid.sa/hs-fs/hubfs/to%20top.png?width=50&name=to%20top.png"></img>
+      <a href="#header" className="btn-scrollup active">
+       <img src="https://grow.zid.sa/hs-fs/hubfs/to%20top.png?width=50&name=to%20top.png" alt="zid-logo"></img>
       </a>
 
       <Header />
@@ -25,7 +23,7 @@ export default function Homepage() {
           width="32"
           height="30"
           viewBox="0 0 39 37"
-          class="conversations-visitor-open-icon"
+          className="conversations-visitor-open-icon"
         >
           <defs>
             <path
@@ -33,7 +31,7 @@ export default function Homepage() {
               d="M31.4824242 24.6256121L31.4824242 0.501369697 0.476266667 0.501369697 0.476266667 24.6256121z"
             ></path>
           </defs>
-          <g fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+          <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
             <g transform="translate(-1432 -977) translate(1415.723 959.455)">
               <g transform="translate(17 17)">
                 <g transform="translate(6.333 .075)">

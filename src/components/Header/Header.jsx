@@ -20,9 +20,9 @@ export default function Header() {
         <MainButton className="" />
         <div className="banner__container row justify-content-center">
           <div className="col-7 img-container">
-            <img className="img-fluid banner" src={banner}></img>
-            <img className="img-fluid Pattern" src={Pattern}></img>
-            <img className="img-fluid Ellipse" src={Ellipse}></img>
+            <img className="img-fluid banner" src={banner} alt="banner" ></img>
+            <img className="img-fluid Pattern" src={Pattern} alt="pattern" ></img>
+            <img className="img-fluid Ellipse" src={Ellipse} alt="ellipse" ></img>
           </div>
           
         </div>

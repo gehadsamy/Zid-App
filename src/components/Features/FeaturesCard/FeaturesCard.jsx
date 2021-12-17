@@ -1,21 +1,21 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
+import { Card, Col } from "react-bootstrap";
 import app from "../../../images/app.png";
 import rate from "../../../images/rate.png";
 
 import "./featurescard.scss";
 export default function FeaturesCard() {
   return (
-    <Col  className="FeaturesCard m-2">
+    <Col className="FeaturesCard mt-2" lg="3" md="6" sm="12">
       <Card style={{}} className="feature__card ">
         <Card.Body>
           <div className="d-flex">
-            <figure className="app-img">
-              <img className="img-fluid app" src={app}></img>
+            <figure className="app-img col-3">
+              <img alt="app" className="img-fluid app" src={app}></img>
             </figure>
 
-            <div>
+            <div className="col-9 me-1">
               <span>قمرة</span>
-              <img className="img-fluid rate" src={rate}></img>
+              <img alt="rate" className="img-fluid rate" src={rate}></img>
               <p className="Card__title m-0"> 
               <span className="Card__title1" >تطوير :</span>
               <span className="Card__title2" > عمر برهوم</span>
