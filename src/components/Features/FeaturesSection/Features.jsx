@@ -6,7 +6,7 @@ import "./features.scss";
 export default function Features() {
     return(
       <section className="Features">
-        <Container className="Features__title text-center">
+        <Container className="Features__title ">
         <h3>
         التطبيقات المميزة
         </h3>
@@ -14,17 +14,20 @@ export default function Features() {
         تطبيقات تقدم حلول وخدمات مميزة نوصي بتجربتها
 
         </p>
+        
+       <Container className="d-flex">
+        <FeaturesCard/>
+        <FeaturesCard/>
+        <FeaturesCard/>
+        <FeaturesCard/>
+
+      </Container>
+<Row className="justify-content-center">
+<MainButton className="Features__button" />
+
+</Row>
         </Container>
       
-       <Row>
-        <Col><FeaturesCard/></Col>
-        <Col><FeaturesCard/></Col>
-        <Col><FeaturesCard/></Col>
-        <Col><FeaturesCard/></Col>
-
-      </Row>
-
-      <MainButton className="" />
       </section>
  
     );
