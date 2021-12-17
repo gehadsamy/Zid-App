@@ -5,7 +5,7 @@ import logo from "../../images/zid-logo.png";
 function NavBar() {
   return (
     <Navbar className="navbar mb-5">
-        <Navbar.Brand href="#home" className="col-xs-3  pe-4">
+        <Navbar.Brand href="#home" className="col-xs-3">
           <img className="w-100" src={logo} alt="logo"></img>
         </Navbar.Brand>
       <Container className="navbar__container d-flex">

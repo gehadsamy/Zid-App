@@ -9,9 +9,11 @@
     right: 0;
     left: 0;
     z-index: 1000;
+    margin-right: 15%;
+    
 
     .navbar__container {
-        padding: 0rem 7rem;
+        padding: 0 10%;
         justify-content: flex-start !important;
     }
 
